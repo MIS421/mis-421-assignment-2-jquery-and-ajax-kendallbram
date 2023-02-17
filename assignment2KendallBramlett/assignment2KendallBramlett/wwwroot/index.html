@@ -4,13 +4,14 @@
 
 <head>
     <title>Kirby's Questions</title>
-    <link href="./css/style.css" rel="stylesheet"/>
+    <link href="./css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha384-Ft/vb48LwsAEtgltj7o+6vtS2esTU9PCpDqcXs4OCVQFZu5BqprHtUCZ4kjK+bpE" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -18,18 +19,17 @@
     <div id="time"><button id="time-btn" onclick="showTime()">Click to see time</button></div>
     <div>
         <h1 id="title">Kirby's Questions</h1>
-
         <button id="my-button">Search</button>
-
         <div id="time-display"></div>
-
-
         <textarea id="query" name="query"></textarea>
         <button id="change-bg-btn">Change Background Image</button>
+        <button id="im-feeling-lucky">Kirby's Feeling Lucky!</button>
 
 
     </div>
     <div id="searchResults"></div>
+
+
 
     <script>
         const button = document.getElementById('change-bg-btn');
@@ -42,8 +42,8 @@
                 "https://wallpaper.dog/large/5504286.png",
                 "https://wallpaper.dog/large/5504295.jpg",
                 "https://e0.pxfuel.com/wallpapers/506/131/desktop-wallpaper-kirby-background-kirby-kirby-super-smash-bros-and-kirby-nintendo-minimalist-kirby.jpg"
-                
-                
+
+
             ];
 
             // Get a random index from the array
@@ -61,7 +61,6 @@
             const minutes = now.getMinutes().toString().padStart(2, '0');
             const time = `${hours}:${minutes}`;
 
-            // Update the button text
             $('<div>').dialog({
                 title: 'Current Time',
                 modal: true,
@@ -82,7 +81,23 @@
         document.getElementById("my-button").addEventListener("click", searchButtonClick);
     </script>
 
-    <script  src="js/script.js"></script>
+    <script>
+        function feelingLucky() {
+            window.open("https://youtu.be/xvFZjo5PgG0");
+           
+        }
+    </script>
+
+    <script>
+        function feelingLuckyButtonClick() {
+            feelingLucky();
+        }
+
+        document.getElementById("im-feeling-lucky").addEventListener("click", feelingLuckyButtonClick);
+    </script>
+
+    
+
 </body>
 
 </html>
