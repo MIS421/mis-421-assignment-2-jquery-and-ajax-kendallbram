@@ -1,0 +1,7 @@
+C:\Users\kenda\Source\Repos\mis-421-assignment-2-jquery-and-ajax-kendallbram\assignment2KendallBramlett\assignment2KendallBramlett\obj\Release\net6.0\PubTmp\Out\assignment2KendallBramlett.exe
+C:\Users\kenda\Source\Repos\mis-421-assignment-2-jquery-and-ajax-kendallbram\assignment2KendallBramlett\assignment2KendallBramlett\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\kenda\Source\Repos\mis-421-assignment-2-jquery-and-ajax-kendallbram\assignment2KendallBramlett\assignment2KendallBramlett\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\kenda\Source\Repos\mis-421-assignment-2-jquery-and-ajax-kendallbram\assignment2KendallBramlett\assignment2KendallBramlett\obj\Release\net6.0\PubTmp\Out\assignment2KendallBramlett.dll
+C:\Users\kenda\Source\Repos\mis-421-assignment-2-jquery-and-ajax-kendallbram\assignment2KendallBramlett\assignment2KendallBramlett\obj\Release\net6.0\PubTmp\Out\assignment2KendallBramlett.deps.json
+C:\Users\kenda\Source\Repos\mis-421-assignment-2-jquery-and-ajax-kendallbram\assignment2KendallBramlett\assignment2KendallBramlett\obj\Release\net6.0\PubTmp\Out\assignment2KendallBramlett.runtimeconfig.json
+C:\Users\kenda\Source\Repos\mis-421-assignment-2-jquery-and-ajax-kendallbram\assignment2KendallBramlett\assignment2KendallBramlett\obj\Release\net6.0\PubTmp\Out\assignment2KendallBramlett.pdb
